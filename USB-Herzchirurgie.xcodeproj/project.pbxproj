@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD109BC1A0D4FA600176F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD109BB1A0D4FA600176F97 /* AppDelegate.swift */; };
+		DCD109BE1A0D4FA600176F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD109BD1A0D4FA600176F97 /* ViewController.swift */; };
+		DCD109C11A0D4FA600176F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD109BF1A0D4FA600176F97 /* Main.storyboard */; };
+		DCD109C31A0D4FA600176F97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD109C21A0D4FA600176F97 /* Images.xcassets */; };
+		DCD109C61A0D4FA600176F97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD109C41A0D4FA600176F97 /* LaunchScreen.xib */; };
+		DCD109D21A0D4FA600176F97 /* USB_HerzchirurgieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD109D11A0D4FA600176F97 /* USB_HerzchirurgieTests.swift */; };
+		DCD109DD1A0D689600176F97 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD109DB1A0D689600176F97 /* AlbertEinsteinStamp.jpg */; };
+		DCD109DE1A0D689600176F97 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCD109DC1A0D689600176F97 /* SagradaFamilia.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD109CC1A0D4FA600176F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD109AE1A0D4FA600176F97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD109B51A0D4FA600176F97;
+			remoteInfo = "USB-Herzchirurgie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD109B61A0D4FA600176F97 /* USB-Herzchirurgie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USB-Herzchirurgie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD109BA1A0D4FA600176F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD109BB1A0D4FA600176F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD109BD1A0D4FA600176F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCD109C01A0D4FA600176F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD109C21A0D4FA600176F97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCD109C51A0D4FA600176F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCD109CB1A0D4FA600176F97 /* USB-HerzchirurgieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USB-HerzchirurgieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD109D01A0D4FA600176F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD109D11A0D4FA600176F97 /* USB_HerzchirurgieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USB_HerzchirurgieTests.swift; sourceTree = "<group>"; };
+		DCD109DB1A0D689600176F97 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		DCD109DC1A0D689600176F97 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD109B31A0D4FA600176F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD109C81A0D4FA600176F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD109AD1A0D4FA600176F97 = {
+			isa = PBXGroup;
+			children = (
+				DCD109B81A0D4FA600176F97 /* USB-Herzchirurgie */,
+				DCD109CE1A0D4FA600176F97 /* USB-HerzchirurgieTests */,
+				DCD109B71A0D4FA600176F97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD109B71A0D4FA600176F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD109B61A0D4FA600176F97 /* USB-Herzchirurgie.app */,
+				DCD109CB1A0D4FA600176F97 /* USB-HerzchirurgieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD109B81A0D4FA600176F97 /* USB-Herzchirurgie */ = {
+			isa = PBXGroup;
+			children = (
+				DCD109BB1A0D4FA600176F97 /* AppDelegate.swift */,
+				DCD109BD1A0D4FA600176F97 /* ViewController.swift */,
+				DCD109BF1A0D4FA600176F97 /* Main.storyboard */,
+				DCD109C21A0D4FA600176F97 /* Images.xcassets */,
+				DCD109C41A0D4FA600176F97 /* LaunchScreen.xib */,
+				DCD109B91A0D4FA600176F97 /* Supporting Files */,
+			);
+			path = "USB-Herzchirurgie";
+			sourceTree = "<group>";
+		};
+		DCD109B91A0D4FA600176F97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD109DB1A0D689600176F97 /* AlbertEinsteinStamp.jpg */,
+				DCD109DC1A0D689600176F97 /* SagradaFamilia.jpeg */,
+				DCD109BA1A0D4FA600176F97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD109CE1A0D4FA600176F97 /* USB-HerzchirurgieTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD109D11A0D4FA600176F97 /* USB_HerzchirurgieTests.swift */,
+				DCD109CF1A0D4FA600176F97 /* Supporting Files */,
+			);
+			path = "USB-HerzchirurgieTests";
+			sourceTree = "<group>";
+		};
+		DCD109CF1A0D4FA600176F97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD109D01A0D4FA600176F97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD109B51A0D4FA600176F97 /* USB-Herzchirurgie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD109D51A0D4FA600176F97 /* Build configuration list for PBXNativeTarget "USB-Herzchirurgie" */;
+			buildPhases = (
+				DCD109B21A0D4FA600176F97 /* Sources */,
+				DCD109B31A0D4FA600176F97 /* Frameworks */,
+				DCD109B41A0D4FA600176F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USB-Herzchirurgie";
+			productName = "USB-Herzchirurgie";
+			productReference = DCD109B61A0D4FA600176F97 /* USB-Herzchirurgie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD109CA1A0D4FA600176F97 /* USB-HerzchirurgieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD109D81A0D4FA600176F97 /* Build configuration list for PBXNativeTarget "USB-HerzchirurgieTests" */;
+			buildPhases = (
+				DCD109C71A0D4FA600176F97 /* Sources */,
+				DCD109C81A0D4FA600176F97 /* Frameworks */,
+				DCD109C91A0D4FA600176F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD109CD1A0D4FA600176F97 /* PBXTargetDependency */,
+			);
+			name = "USB-HerzchirurgieTests";
+			productName = "USB-HerzchirurgieTests";
+			productReference = DCD109CB1A0D4FA600176F97 /* USB-HerzchirurgieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD109AE1A0D4FA600176F97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					DCD109B51A0D4FA600176F97 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DCD109CA1A0D4FA600176F97 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DCD109B51A0D4FA600176F97;
+					};
+				};
+			};
+			buildConfigurationList = DCD109B11A0D4FA600176F97 /* Build configuration list for PBXProject "USB-Herzchirurgie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD109AD1A0D4FA600176F97;
+			productRefGroup = DCD109B71A0D4FA600176F97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD109B51A0D4FA600176F97 /* USB-Herzchirurgie */,
+				DCD109CA1A0D4FA600176F97 /* USB-HerzchirurgieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD109B41A0D4FA600176F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD109DD1A0D689600176F97 /* AlbertEinsteinStamp.jpg in Resources */,
+				DCD109C11A0D4FA600176F97 /* Main.storyboard in Resources */,
+				DCD109C61A0D4FA600176F97 /* LaunchScreen.xib in Resources */,
+				DCD109C31A0D4FA600176F97 /* Images.xcassets in Resources */,
+				DCD109DE1A0D689600176F97 /* SagradaFamilia.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD109C91A0D4FA600176F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD109B21A0D4FA600176F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD109BE1A0D4FA600176F97 /* ViewController.swift in Sources */,
+				DCD109BC1A0D4FA600176F97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD109C71A0D4FA600176F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD109D21A0D4FA600176F97 /* USB_HerzchirurgieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD109CD1A0D4FA600176F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD109B51A0D4FA600176F97 /* USB-Herzchirurgie */;
+			targetProxy = DCD109CC1A0D4FA600176F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD109BF1A0D4FA600176F97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD109C01A0D4FA600176F97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD109C41A0D4FA600176F97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD109C51A0D4FA600176F97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD109D31A0D4FA600176F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD109D41A0D4FA600176F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD109D61A0D4FA600176F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "USB-Herzchirurgie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCD109D71A0D4FA600176F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "USB-Herzchirurgie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCD109D91A0D4FA600176F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "USB-HerzchirurgieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USB-Herzchirurgie.app/USB-Herzchirurgie";
+			};
+			name = Debug;
+		};
+		DCD109DA1A0D4FA600176F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "USB-HerzchirurgieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USB-Herzchirurgie.app/USB-Herzchirurgie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD109B11A0D4FA600176F97 /* Build configuration list for PBXProject "USB-Herzchirurgie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD109D31A0D4FA600176F97 /* Debug */,
+				DCD109D41A0D4FA600176F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD109D51A0D4FA600176F97 /* Build configuration list for PBXNativeTarget "USB-Herzchirurgie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD109D61A0D4FA600176F97 /* Debug */,
+				DCD109D71A0D4FA600176F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCD109D81A0D4FA600176F97 /* Build configuration list for PBXNativeTarget "USB-HerzchirurgieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD109D91A0D4FA600176F97 /* Debug */,
+				DCD109DA1A0D4FA600176F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD109AE1A0D4FA600176F97 /* Project object */;
+}
