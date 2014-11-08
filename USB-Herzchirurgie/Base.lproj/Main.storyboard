@@ -41,20 +41,20 @@
                     <view key="view" contentMode="scaleToFill" id="pLa-KI-prW">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRp-b9-JhE">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRp-b9-JhE">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="243" width="330" height="30"/>
+                                    <rect key="frame" x="26" y="243" width="275" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-7n-da4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-7n-da4">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="310" width="330" height="30"/>
+                                    <rect key="frame" x="26" y="297" width="275" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x78-XE-igT">
@@ -66,7 +66,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="354" width="330" height="30"/>
+                                    <rect key="frame" x="26" y="350" width="275" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="sendMailButtonPressed:" destination="liN-Ce-aAQ" eventType="touchUpInside" id="o0y-Ep-zYc"/>
@@ -81,28 +81,19 @@
                                     <rect key="frame" x="26" y="72" width="317" height="51"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5U-HJ-bXu">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mP-fK-v2G">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="214" width="74" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoS-LQ-2Xe">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="281" width="98" height="21"/>
+                                    <rect key="frame" x="26" y="159" width="217" height="41"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2BM-ET-dWc">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="251" y="145" width="99" height="90"/>
+                                    <rect key="frame" x="238" y="145" width="63" height="55"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -113,8 +104,7 @@
                                 <exclude reference="nJN-7n-da4"/>
                                 <exclude reference="x78-XE-igT"/>
                                 <exclude reference="wb6-Y6-TE6"/>
-                                <exclude reference="Z5U-HJ-bXu"/>
-                                <exclude reference="AoS-LQ-2Xe"/>
+                                <exclude reference="7mP-fK-v2G"/>
                                 <exclude reference="2BM-ET-dWc"/>
                             </mask>
                         </variation>
@@ -124,8 +114,7 @@
                                 <include reference="nJN-7n-da4"/>
                                 <include reference="x78-XE-igT"/>
                                 <include reference="wb6-Y6-TE6"/>
-                                <include reference="Z5U-HJ-bXu"/>
-                                <include reference="AoS-LQ-2Xe"/>
+                                <include reference="7mP-fK-v2G"/>
                                 <include reference="2BM-ET-dWc"/>
                             </mask>
                         </variation>
@@ -135,6 +124,7 @@
                         <outlet property="enterNameTextfield" destination="KRp-b9-JhE" id="kb2-yY-ung"/>
                         <outlet property="mailButton" destination="x78-XE-igT" id="xfe-2D-9oa"/>
                         <outlet property="messageLabel" destination="wb6-Y6-TE6" id="4Bf-WU-lHz"/>
+                        <outlet property="nameLabel" destination="7mP-fK-v2G" id="UfF-fl-Us3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQq-CB-p15" userLabel="First Responder" sceneMemberID="firstResponder"/>
